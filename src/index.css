@@ -1,0 +1,236 @@
+.rootBox{
+
+}
+/* tapItem */
+.tapItem{
+    display: flex;
+    flex-direction:column ;
+    height:701PX;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav-chr1{
+    margin-left: 20PX;
+}
+.nav-chr2{
+    margin-left: 20PX;
+}
+.nav-item-atived{
+    padding-bottom: 20PX;
+    color: #5fc6fa;
+    margin-left: 20PX;
+}
+
+.nav-item{
+    margin-left: 20PX;
+}
+
+.nav-item-line-atived{
+    margin-top: 20PX;
+    background-color: #5fc6fa;
+    width: 100%;
+    height: 2PX;
+    
+}
+
+.nav-item-line{
+    width: 100%;
+    height: 2PX;
+}
+.itemCardBg{
+    width: 100%;
+    background: #ffffff;
+    margin: 8PX auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10PX;
+    height: auto;
+}
+.model-text{
+    margin: 10PX 9PX;
+    
+}
+/* swapper控制卡片高度 */
+/* 外部 */
+.test1-h{
+    height: 900PX;
+    width: 910PX;
+}
+/* 里面 */
+.test2-h{
+    height: 3500PX;
+}
+/* 模型选择 */
+.model-out{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.model-out-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100PX;
+    width: 95%;
+    border: 2px solid #f3f3f3;
+    border-radius: 11PX; 
+}
+.vae{
+    margin: 10Px 9PX;
+    width: fit-content;
+}
+.vae-out{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20PX;
+}
+.vae-out-change{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50PX;
+    width: 95%;
+    border: 2PX solid #f3f3f3;
+    border-radius: 11PX; 
+}
+/* 提示词 */
+.model-text{
+    margin:10PX 9PX;
+    font-weight: 600;
+    width: fit-content;
+}
+.model-outText{
+    margin:10PX 9PX;
+}
+.model-AtTextarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20PX;
+}
+.model-AtTextarea-in{
+    width: 95%;
+    /* border: 2px solid #c0efff; */
+}
+/* 设置 */
+.setup-title{
+    margin:10PX 9PX;
+    font-weight: 600;
+}
+.setup-wh{
+    width: 95%;
+    margin: 0PX auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* display: none; */
+}
+.setup-wh-w{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.setup-wh-w-title{
+    width: 100%
+}
+.setup-wh-w-setup{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100PX;
+}
+.setup-wh-w-setup-left{
+    width: 55%;
+    margin: auto 0PX;
+}
+.setup-wh-w-setup-right{
+    width: 40%;
+    margin-left: 50PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inAtSlider{
+    margin-left: 0PX;
+}
+/* 高级设置-ensd */
+
+.setup-hset-ensd{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.setup-hset-ensd-title{
+    width: 100%
+}
+.setup-hset-ensd-setup{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100PX;
+}
+
+.setup-hset-ensd-setup-out{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20PX;
+}
+.setup-hset-ensd-setup-out-change{
+    display: flex;
+    align-items: center;
+    height: 50PX;
+    width: 100%;
+    border: 2PX solid #f3f3f3;
+    border-radius: 11PX; 
+}
+.fillSpace{
+    width: 100%;
+    padding-top: 100PX;
+    padding-bottom: 100PX;
+    /* height: 450PX; */
+}
+.submit{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+    border-radius: 20PX;
+    overflow: hidden;
+}
+.submit-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #24caff, #56e5aa);
+}
+.switch{
+    margin-left: 40PX;
+}
+.highfix{
+    display: flex;
+    justify-content: space-between;
+    margin: 10Px 9PX;
+}
+.defaultBox{
+    display: flex;
+    flex-direction: column;
+}
+.defaultBox_button{
+    margin-top: 20PX;
+    width: 605PX;
+}

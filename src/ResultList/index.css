@@ -1,0 +1,58 @@
+.dataListBox{
+    width: 100%;
+    background: #ffffff;
+    margin:0 auto;
+    display: flex;
+    border-radius: 10PX;
+    margin-top: 20PX;
+}
+.dataList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 13PX 15PX 13PX 15PX;
+}
+.dataList_l{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.dataList_l_time{
+    color: #9c9c9c;
+}
+.dataList_l_ID{
+    color: #9c9c9c;
+}
+.dataList_l_img{
+    width: 100%;
+}
+.dataList_outTime{
+    color: #9c9c9c;
+    width: 10%;
+}
+.dataList_del{
+    width: 10%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.bottomTip{
+    margin-top: 20PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.topBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8PX;
+}
+.topBox_update{
+
+}
+.topBox_text{
+
+}
