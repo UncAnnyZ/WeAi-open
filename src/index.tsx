@@ -1,5 +1,5 @@
-import React, { useEffect, useState,useMemo } from "react";
 
+import "./index.css";
 
 const App = (props) => {
     return <div>hello world</div>
