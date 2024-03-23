@@ -1215,10 +1215,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@we-dynamic/build@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@we-dynamic/build/-/build-1.0.2.tgz#462c8f8dc081d1ba9492464339c61ecfb9b19ad7"
-  integrity sha512-WSPlgxEgHog8wox86z82W4cAZmhTl4UCZn/fTKd3C7pNFaDLKyHoIh0tEi2mHnmArxe9oSN8M9cnK2US35tmzA==
+"@we-dynamic/build@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@we-dynamic/build/-/build-1.0.3.tgz#a21674ac95562a86e3fd70a7f2a7ca76cdaa715f"
+  integrity sha512-TLkAt4+hquWXVCOovU6940fKzGLlrhUT/WzRDchFgMtj/ZPMLijs9ucfJx152nD7gNiMdQek2HeuEI8mN88ihw==
   dependencies:
     "@babel/core" "^7.23.2"
     "@babel/plugin-transform-react-jsx" "^7.22.15"
