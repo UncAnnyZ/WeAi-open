@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/UncAnnyZ/WeAI-Dynamic-build#readme",
   "devDependencies": {
-    "@we-dynamic/build": "^1.0.9",
+    "@we-dynamic/build": "^1.0.10",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
