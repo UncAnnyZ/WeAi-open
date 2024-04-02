@@ -1215,10 +1215,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@we-dynamic/build@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@we-dynamic/build/-/build-1.0.8.tgz#7057e679c62786ed657d086de45e340f76f847e0"
-  integrity sha512-tdMST9UjUyV3/lV0P9ipXXS0vYtN+nYAeFAkOr+fSh+tnNoy9rVvIJwV+Cn8Ncg5gTW+Vay2blCEe+LX5B+1xQ==
+"@we-dynamic/build@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@we-dynamic/build/-/build-1.0.15.tgz#8f57b70a9679ee38facae713ae2bf368b2ea1f72"
+  integrity sha512-oSWNTmeW4VNj5Tet04sRKCvRuJhfCSv5+cOCV1nDgiNZksPz5PHNS2r59nrcvVYbvfXNb/gB9c/OXVZAM5bXgw==
   dependencies:
     "@babel/core" "^7.23.2"
     "@babel/plugin-transform-react-jsx" "^7.22.15"
@@ -1237,7 +1237,7 @@
     esbuild "^0.20.2"
     express "^4.19.1"
     get-port "5.0.0"
-    md5 "^2.3.0"
+    md5 "2.3.0"
     pako "^2.0.4"
     postcss-value-parser "^3.3.0"
     react-router-dom "^6.22.2"
@@ -2265,7 +2265,7 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-md5@^2.3.0:
+md5@2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
   integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
